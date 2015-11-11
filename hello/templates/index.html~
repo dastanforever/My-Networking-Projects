@@ -1,0 +1,28 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+
+{% block content %}
+
+<div class="text-center">
+  <div class="container">
+    <h1>Welcome</h1>
+    <p>This is a sample Python application deployed to Heroku. It's a reasonably simple app - but a good foundation for understanding how to work on IRC.</p>
+    <a type="button" class="btn btn-lg btn-primary" href="https://github.com/heroku/python-getting-started"><span class="glyphicon glyphicon-download"></span> Source on GitHub</a>
+    <p>
+    Working-------------
+    </p>
+		<p>
+		Enter your Nickname
+		</p>
+		<form action="/db" method="GET">
+		<div class="input-field col s6">
+        	  <input name="nick" id="nickname" type="text" class="validate">
+	          <label for="nickname">Nickname</label>
+        	</div>
+		<button class="btn waves-effect waves-light" type="submit">Enter
+    <i class="material-icons right">send</i>
+  </button>
+  </form>
+	</dir>
+</div>
+{% endblock %}

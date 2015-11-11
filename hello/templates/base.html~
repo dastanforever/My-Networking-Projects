@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Message To Peers!!</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/css/materialize.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.2/js/materialize.min.js"></script>
+  <style>
+  body {
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+  }
+
+  main {
+    flex: 1 0 auto;
+  }
+  </style>
+</head>
+<body>
+
+{% block content %}{% endblock %}
+
+
+<footer class="page-footer cyan accent-4">
+          <div class="container">
+            <div class="row cyan accent-4">
+              <div class="col l6 s12">
+                <h5 class="white-text">Message to Peers.</h5>
+		<p class="grey-text text-lighten-4">Made for networking project, message peers like an Internet Relay Chat.</p>
+              </div>
+              <div class="col l4 offset-l2 s12">
+                <h5 class="white-text">Group - 11</h5>
+                <ul>
+                  <li><a class="grey-text text-lighten-3" href="https://in.linkedin.com/in/ashwani-pandey-9669974b">Ashwani Pandey</a></li>
+                  <li><a class="grey-text text-lighten-3" href="https://in.linkedin.com/in/sharmapranav1">Pranav Sharma</a></li>
+		  <li><a class="grey-text text-lighten-3" href="#!">Divay Jindal</a></li>
+                  <li><a class="grey-text text-lighten-3" href="#!">Ayush Yadav</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="footer-copyright light-blue darken-2">
+            <div class="container">
+            
+            <a class="grey-text text-lighten-4 right" href="#!">More Links</a>
+            </div>
+          </div>
+        </footer>
+</body>
+</html>
