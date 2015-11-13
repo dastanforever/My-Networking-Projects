@@ -14,14 +14,13 @@
 		<p>
 		Enter your Nickname
 		</p>
-		<form action="/db" method="POST">
+		<form action="/home/" method="POST">
 		<div class="input-field col s6">
         	  <input name="nick" id="nickname" type="text" class="validate">
 	          <label for="nickname">Nickname</label>
         	</div>
-		<button class="btn waves-effect waves-light" type="submit">Enter
-    <i class="material-icons right">send</i>
-  </button>
+		<button class="btn waves-effect waves-light" type="submit">Enter</button>
+  {%csrf_token%}
   </form>
 	</dir>
 </div>
